@@ -1,4 +1,4 @@
-#####Link with no alt text
+#####Image with no alt text
 
     ![](img.png)
 
