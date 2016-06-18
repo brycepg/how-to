@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 
-"""Format string precedence"""
+"""Format string precedence
+
+str(foo) calls foo.__str__ if available, then __repr__, then default
+repr(foo) calls foo.__repr__ if available, then default
+"{}".format(foo) calls foo.__format__ if available, then __str__, then __repr__, then default
+"%s" % foo calls foo.__str__ if available, then __repr__, then default
+"""
 
 class Foo(object):
     def __str__(self):
