@@ -15,4 +15,5 @@ def call(args):
     """
     if isinstance(args, str):
         args = args.split(" ")
-    subprocess.check_call(args)
+    returncode =  subprocess.check_call(args)
+    return returncode
