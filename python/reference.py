@@ -1,5 +1,5 @@
 import os
 # Current directory
-os.path.dirname(__file__)
-# Parent directory
-os.path.dirname(os.path.dirname(__file__))
+# If you call this from the current directory without abspath,
+# then it will not work since __file__ is a relative path
+os.path.dirname(os.path.abspath(__file__))
