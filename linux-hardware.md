@@ -1,0 +1,4 @@
+lshw
+dmidecode
+lscpu
+cpupower
