@@ -1,0 +1,21 @@
+babun
+Github desktop
+	dotfiles to %userprofile%\
+	how-to to %userprofile%\documents\
+gvim
+	Setup vim files(run cmd as administrator)
+	mklink /D %userprofile%\vimfiles %userprofile%\dotfiles\.vim\
+	mklink  %userprofile%\_vim %userprofile%\dotfiles\.vimrc
+launchy
+everything
+filezilla
+google drive or dropbox
+lastpass
+
+Firefox search engine to Google
+	Click the Magifying glass > Change Search Settings
+		- Remove yahoo
+
+Login to google chrome account
+
+gitk?
