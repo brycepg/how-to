@@ -1,0 +1,7 @@
+http://www.serverwatch.com/server-tutorials/using-a-physical-hard-drive-with-a-virtualbox-vm.html
+
+Set network boot priority to top
+
+Bridged Adapter Promiscious mode
+https://www.virtualbox.org/wiki/Downloads
+install guiest additions
