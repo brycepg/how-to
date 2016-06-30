@@ -1,11 +1,18 @@
-babun
+Chocolatey ( https://chocolatey.org/install )
+choco install -y ag ConEmu googledrive gnuwin32-coreutils wget Github
+
+    TODO    check later vim launchy filezilla lastpass 7zip
+
+babun (http://babun.github.io/)
+
 Github desktop
 	dotfiles to %userprofile%\
 	how-to to %userprofile%\documents\
 gvim
 	Setup vim files(run cmd as administrator)
-	mklink /D %userprofile%\vimfiles %userprofile%\dotfiles\.vim\
-	mklink  %userprofile%\_vim %userprofile%\dotfiles\.vimrc
+    link dotfiles for vim(Alt+Space E P to paste from "*):
+        mklink /D %userprofile%\vimfiles %userprofile%\dotfiles\.vim\
+        mklink  %userprofile%\_vim %userprofile%\dotfiles\.vimrc
 launchy
 everything
 filezilla
@@ -15,7 +22,12 @@ lastpass
 Firefox search engine to Google
 	Click the Magifying glass > Change Search Settings
 		- Remove yahoo
-
 Login to google chrome account
-
 gitk?
+
+chrome
+    quicktabs
+
+In Explorer
+    check    View > Hidden
+        to show hidden hidden items
