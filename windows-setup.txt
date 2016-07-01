@@ -31,3 +31,7 @@ chrome
 In Explorer
     check    View > Hidden
         to show hidden hidden items
+
+Listary - http://www.listary.com/text-editor-anywhere
+	- Open up gvim in textareas using shortcut
+	- Change shortcut from Win+a to Win+w since win+a is a command in windows 10
