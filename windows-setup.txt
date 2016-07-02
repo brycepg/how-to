@@ -34,3 +34,11 @@ In Explorer
 Text Editor anywhere - http://www.listary.com/text-editor-anywhere
 	- Open up gvim in textareas using shortcut
 	- Change shortcut from Win+a to Win+w since win+a is a command in windows 10
+	
+Remap Print Screen key (PrtSc) to Context Menu
+	Install KeyTweak (http://www.softpedia.com/hubs/Key-Mapper/) (maybe find on choco)
+	Half Teach mode
+	Hit PrtSc
+	Scroll to Context Menu
+	Restart
+	
