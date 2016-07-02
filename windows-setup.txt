@@ -1,5 +1,5 @@
 Chocolatey ( https://chocolatey.org/install )
-choco install -y ag ConEmu googledrive gnuwin32-coreutils wget Github
+choco install -y ag ConEmu googledrive gnuwin32-coreutils.install wget Github
 
     TODO    check later vim launchy filezilla lastpass 7zip
 
