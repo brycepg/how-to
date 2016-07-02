@@ -1,9 +1,12 @@
 Chocolatey ( https://chocolatey.org/install )
-choco install -y ag ConEmu googledrive gnuwin32-coreutils.install wget Github
 
-    TODO    check later vim launchy filezilla lastpass 7zip
+# Primary
+choco install -y ag gnuwin32-coreutils.install wget vim launchy everything 7zip
 
-babun (http://babun.github.io/)
+# Secondary 
+choco install -y googledrive Github
+
+babun ConEmu filezilla
 
 Github desktop
 	dotfiles to %userprofile%\
@@ -13,11 +16,7 @@ gvim
     link dotfiles for vim(Alt+Space E P to paste from "*):
         mklink /D %userprofile%\vimfiles %userprofile%\dotfiles\.vim\
         mklink  %userprofile%\_vim %userprofile%\dotfiles\.vimrc
-launchy
-everything
-filezilla
-google drive or dropbox
-lastpass
+
 
 Firefox search engine to Google
 	Click the Magifying glass > Change Search Settings
@@ -26,12 +25,12 @@ Login to google chrome account
 gitk?
 
 chrome
-    quicktabs
+    quicktabs (find link)
 
 In Explorer
     check    View > Hidden
         to show hidden hidden items
 
-Listary - http://www.listary.com/text-editor-anywhere
+Text Editor anywhere - http://www.listary.com/text-editor-anywhere
 	- Open up gvim in textareas using shortcut
 	- Change shortcut from Win+a to Win+w since win+a is a command in windows 10
