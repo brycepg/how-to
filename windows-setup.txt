@@ -1,3 +1,6 @@
+git-scm(https://git-scm.com/downloads)
+openssh(http://www.mls-software.com/opensshd.html)
+
 Chocolatey ( https://chocolatey.org/install )
 
 # Primary
