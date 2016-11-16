@@ -45,3 +45,4 @@ Remap Print Screen key (PrtSc) to Context Menu
 	Scroll to Context Menu
 	Restart
 	
+Bootable USB - Rufus(https://rufus.akeo.ie/)
