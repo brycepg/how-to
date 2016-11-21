@@ -18,7 +18,7 @@ gvim
 	Setup vim files(run cmd as administrator)
     link dotfiles for vim(Alt+Space E P to paste from "*):
         mklink /D %userprofile%\vimfiles %userprofile%\dotfiles\nvim
-        mklink  %userprofile%\_vim %userprofile%\dotfiles\nvim\init.vim
+        mklink  %userprofile%\_vimrc %userprofile%\dotfiles\nvim\init.vim
 
 
 Firefox search engine to Google
