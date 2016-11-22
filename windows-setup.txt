@@ -43,9 +43,9 @@ Text Editor anywhere - http://www.listary.com/text-editor-anywhere
 	
 Remap Print Screen key (PrtSc) to Context Menu
 	Install KeyTweak (http://www.softpedia.com/hubs/Key-Mapper/) (maybe find on choco)
-	Half Teach mode
-	Hit PrtSc
-	Scroll to Context Menu
+	Map key 124(context menu) to Print Screen
+	Apply
 	Restart
 	
 Bootable USB - Rufus(https://rufus.akeo.ie/)
+unetbootin consistently gives me unbootable USB drives
