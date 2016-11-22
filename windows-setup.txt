@@ -1,51 +1,61 @@
 git-scm(https://git-scm.com/downloads)
-
-git-scm comes with ssh, but support for terminal codes is lacking, so install openssh after to have
-ssh via cmd.exe
 openssh(http://www.mls-software.com/opensshd.html)
-
+ - git-scm comes with ssh, but support for terminal codes is lacking, so install openssh after to have
+	ssh via cmd.exe
+Everything(https://www.voidtools.com/)
+ - Indexing files because the Windows Indexer is broken
+7z(http://www.7-zip.org/download.html)
+ - Unzip archives
+Launchy(http://www.launchy.net/download.php)
+ - Launch programs because Windows 10 Search is broken
 Chocolatey ( https://chocolatey.org/install )
+ - Package manager for Windows that kind of works .
+Strawberry Perl(http://strawberryperl.com/)
+ - Perl + CPAN for downloading Perl packages
+DiskInternals Linux Reader (https://www.diskinternals.com/linux-reader/)
+ - Read ext4 partition from Windows
+ClipSync Server(http://bdwm.be/cs/)
+ - Send text between Windows and a mobile device
+ 
+Ack
+ - "better grep"
+ - After strawberry perl is downloaded and installed into the PATH
+ - run `cpan Ack::Ack` from cmd.exe to download ack
+ 
+# Choco packages
+choco install -y ag gnuwin32-coreutils.install wget babun ConEmu filezilla
 
-# Primary
-choco install -y ag gnuwin32-coreutils.install wget vim launchy everything 7zip
-
-# Secondary 
-choco install -y googledrive Github
-
-babun ConEmu filezilla
-
-Github desktop
-	dotfiles to %userprofile%\
-	how-to to %userprofile%\documents\
 gvim
 	Setup vim files(run cmd as administrator)
     link dotfiles for vim(Alt+Space E P to paste from "*):
         mklink /D %userprofile%\vimfiles %userprofile%\dotfiles\nvim
         mklink  %userprofile%\_vimrc %userprofile%\dotfiles\nvim\init.vim
 
-
-Firefox search engine to Google
+# Firefox
+Set Firefox search engine to Google
 	Click the Magifying glass > Change Search Settings
 		- Remove yahoo
-Login to google chrome account
-gitk?
 
 chrome
-    quicktabs (find link)
-
-In Explorer
-    check    View > Hidden
+    login to chrome
+    
+# Explorer.exe
+    * check View > Hidden
         to show hidden hidden items
+    * To show 'This PC' on explorer startup
+    	File > change folder and search options
+    	In the drop down "Open File Explorer to:" select "This PC"
+    
 
-Text Editor anywhere - http://www.listary.com/text-editor-anywhere
+# Text Editor anywhere (http://www.listary.com/text-editor-anywhere)
 	- Open up gvim in textareas using shortcut
 	- Change shortcut from Win+a to Win+w since win+a is a command in windows 10
 	
-Remap Print Screen key (PrtSc) to Context Menu
+# Remap Print Screen key (PrtSc) to Context Menu
 	Install KeyTweak (http://www.softpedia.com/hubs/Key-Mapper/) (maybe find on choco)
 	Map key 124(context menu) to Print Screen
 	Apply
 	Restart
 	
-Bootable USB - Rufus(https://rufus.akeo.ie/)
-unetbootin consistently gives me unbootable USB drives
+# Bootable USB - Rufus(https://rufus.akeo.ie/)
+- unetbootin consistently gives me unbootable USB drives
