@@ -16,6 +16,11 @@ DiskInternals Linux Reader (https://www.diskinternals.com/linux-reader/)
  - Read ext4 partition from Windows
 ClipSync Server(http://bdwm.be/cs/)
  - Send text between Windows and a mobile device
+WinPython(http://winpython.github.io/)
+ - Useful for the IPythonQT client
+Deluge(http://deluge-torrent.org/)
+Enpass(https://www.enpass.io/downloads/)
+HWInfo(https://www.hwinfo.com/)
  
 Ack
  - "better grep"
