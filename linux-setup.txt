@@ -59,3 +59,11 @@ sshd
         PasswordAuthentication No
     systemctl enable sshd.service
     systemctl start sshd.service
+
+key mapping
+###########
+
+use xev to find key code you want to map (107)
+xmodmap -e "keycode 107 = Menu NoSymbol Menu"
+
+http://askubuntu.com/questions/234416/how-to-remap-the-context-menu-to-another-key-in-linux
