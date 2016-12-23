@@ -1,2 +1,2 @@
-# Download my playlist on youtube into mp3s with title.ext format
-youtube-dl -x --audio-quality 0 --audio-format mp3 https://www.youtube.com/playlist?list=PL3vuYG33sNf-KQJxT81rZebdq4pnaat_m -o "%(title)s.$(ext)s"
+# Use youtube-dl to download mp3 format
+youtube-dl -x --audio-quality 0 --audio-format mp3 "$@" -o "%(title)s.%(ext)s"
