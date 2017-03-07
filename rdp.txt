@@ -1,0 +1,3 @@
+Linux: freerdp (xfreerdp)
+
+xfreerdp /u:Administrator /v:your.system.com
