@@ -1,3 +1,0 @@
-dpkg -L {package}
-
-    found out files that are provided by the installed package
