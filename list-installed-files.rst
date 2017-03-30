@@ -26,5 +26,7 @@ remove `--installed` if you haven't installed the package yet.
 Fedora 23+
 ==========
 
-dnf repoquery Foo
+::
+
+    dnf repoquery --installed -l Foo
 
